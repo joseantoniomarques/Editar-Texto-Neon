@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(14, 13, 13);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    background-color: #000;
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+    color: #00ff00;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 45px;
+    border-radius: 10px;
+}
+
+textarea {
+    background-color: rgb(14, 13, 13);
+    color: #00ff00;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    font-size: medium;
+}
+button {
+    padding: 8.5px;
+    background-color: #00ff00;
+    color: #000;
+    border: none;
+    border-radius: 3px;
+    font-size:smaller;
+    cursor: pointer;
+} button:hover{
+    background-color: #161616;
+    color: #00ff00;
+}
